@@ -1,0 +1,29 @@
+{
+  "name": "gramps2neo4j",
+  "version": "1.0.0",
+  "description": "load a gramps format extracted csv to neo4j database",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -t 100",
+    "test-cov-html": "lab -r html -o coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roylines/gramps2neo4j.git"
+  },
+  "author": "Roy Lines <roy@roylines.co.uk> (http://roylines.co.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roylines/gramps2neo4j/issues"
+  },
+  "homepage": "https://github.com/roylines/gramps2neo4j#readme",
+  "dependencies": {
+    "node-neo4j": "^2.0.3",
+    "split": "^1.0.0",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "lab": "^5.15.2"
+  }
+}
