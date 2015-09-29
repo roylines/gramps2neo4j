@@ -24,6 +24,6 @@
   },
   "devDependencies": {
     "chai": "3.3.0",
-    "lab": "5.18.1"
+    "lab": "6.0.0"
   }
 }
