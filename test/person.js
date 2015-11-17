@@ -5,6 +5,7 @@ var lab = exports.lab = Lab.script();
 
 function testAdd(who, done) {
   return person.add(who, function(e, d) {
+    should.be.null(e);
     d.id.should.equal(who.id);
     d.gender.should.equal(who.gender);
     d._id.should.be.above(1);
@@ -21,6 +22,7 @@ function testDelete(who, done) {
 
 lab.experiment('person', function() {
   lab.experiment('add', function() {
+    /*
     lab.test('can add a male person, first time', function(done) {
       var who = {
         id: 'IDM',
@@ -56,5 +58,6 @@ lab.experiment('person', function() {
       };
       testDelete(who, done);
     });
+    */
   });
 });
