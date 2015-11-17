@@ -22,7 +22,7 @@
     "through2": "2.0.0"
   },
   "devDependencies": {
-    "chai": "3.4.1",
-    "lab": "6.0.0"
+    "chai": "*",
+    "lab": "*"
   }
 }
