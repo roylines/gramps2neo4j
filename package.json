@@ -23,6 +23,6 @@
   },
   "devDependencies": {
     "chai": "*",
-    "lab": "*"
+    "lab": "8.0.0"
   }
 }
