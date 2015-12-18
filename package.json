@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "chai": "*",
+    "git-pre-hooks": "^1.2.0",
     "lab": "*"
   }
 }
