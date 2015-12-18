@@ -22,8 +22,8 @@
     "through2": "2.0.0"
   },
   "devDependencies": {
-    "chai": "*",
-    "git-pre-hooks": "^1.2.0",
-    "lab": "*"
+    "chai": "3.3.0",
+    "git-pre-hooks": "1.2.0",
+    "lab": "8.0.0"
   }
 }
