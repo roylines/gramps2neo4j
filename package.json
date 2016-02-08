@@ -19,7 +19,7 @@
   "dependencies": {
     "node-neo4j": "2.0.3",
     "split": "1.0.0",
-    "through2": "2.0.0"
+    "through2": "2.0.1"
   },
   "devDependencies": {
     "chai": "3.3.0",
